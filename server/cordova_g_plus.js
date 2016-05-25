@@ -60,7 +60,7 @@ Accounts.registerLoginHandler(function(req) { // cordova_g_plus SignIn handler
                 }
 
                 userId = Meteor.users.insert(insertObject);
-            } else throw new Meteor.Error(422, "AccessToken MISMATCH in hedcet:cordova-google-plus-native-sign-in package");
+            } else throw new Meteor.Error(422, "AccessToken MISMATCH in phund:cordova-google-plus-native-sign-in package");
         }
     } else userId = user._id;
 
