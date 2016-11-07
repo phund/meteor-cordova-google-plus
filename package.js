@@ -2,12 +2,12 @@ Package.describe({
   name: "phund:cordova-google-plus-native-sign-in",
   summary: "native SignIn with Google Plus in Meteor Cordova Android/IOS App",
   documentation: "README.md",
-  version: "1.1.1",
+  version: "1.2.0",
   git: "https://github.com/phund/meteor-cordova-google-plus.git"
 });
 
 Cordova.depends({
-  "cordova-plugin-googleplus": "https://github.com/EddyVerbruggen/cordova-plugin-googleplus/tarball/3ae99ea5d24619949613b87cdcb01b407199c253"
+  "cordova-plugin-googleplus": "https://github.com/EddyVerbruggen/cordova-plugin-googleplus/tarball/9f9c534372d43cd97a13c8e1b4bfb53f27ac77d7"
 });
 
 Package.onUse(function(api) {
